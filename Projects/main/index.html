@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background: black;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 id="test">This is before</h1>
+    <button onclick="say_hello()">i will change</button>
+     <!-- <h3>What bg color  want</h3> -->
+     <input type="text" name="" id="change" placeholder="i will alert ur meassage">
+     <button onclick="change_value()">alert</button>
+     <h2 id="changed"></h2>  
+
+    <!-- <img src="image.jpg"  height="60px" id="image"> -->
+
+    <!-- <input type="text" placeholder="Befor" id="place">
+    <button id="submitButton">cliick me</button>
+
+
+    <script>
+        // Wait until the DOM is fully loaded
+        document.addEventListener("DOMContentLoaded", function () {
+
+            const inputField = document.getElementById("place");
+            const submitButton = document.getElementById("submitButton");
+
+            // Add a click event listener to the button
+            submitButton.addEventListener("click", function () {
+                // Get the value from the input field
+                const userInputValue = inputField.value;
+
+                // Now userInputValue holds the value from the input field
+                console.log("User input:", userInputValue);
+                var change_value = userInputValue
+                // You can now use this value in your script, e.g., display it, send it to a server, etc.
+                document.getElementById('test').innerHTML=userInputValue
+            }); -->
+<!--             
+        }); 
+
+
+    </script> -->
+
+    <!-- <script>
+        function say_hello() {
+            var element = document.getElementById("test");
+            if (element.innerHTML === "This is before") {
+                element.innerHTML = "I will say hello on click";
+            } else {
+                element.innerHTML = "This is before";
+            }
+        }
+        </script> -->
+
+
+
+    <!-- <script>
+        document.getElementById("test").innerHTML='This is after'
+    </script> -->
+    <script src="index.js"></script>
+</body>
+
+</html>

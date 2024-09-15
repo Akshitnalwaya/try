@@ -1,0 +1,9 @@
+Elements --> main tags such as <p> <h1> etc
+attributes --> inbulit properties of elemnts which does not include css part as of know
+
+user se i/p image change placeholder
+
+functio scope me varaible are local acceable
+const let = local var gloablehe hota he gloabl
+
+condtion me var 
